@@ -1,0 +1,44 @@
+html {
+  box-sizing: border:box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: blue;
+  margin: 0;
+}
+
+.butterfly,
+.ladybug {
+  margin-left: 19%;
+}
+
+.dragonfly,
+.animated {
+  margin-right: 19%;
+}
+
+.ladybug {
+  clear: left;
+}
+
+.butterfly {
+  margin-left: 7%;
+}
+
+.ladybug {
+  margin-right: 1%;
+}
+
+.dragonfly {
+  margin-left: 1%;
+  clear: none;
+}
+
+.animated {
+  margin-right: 7%;
+}
+
+}
